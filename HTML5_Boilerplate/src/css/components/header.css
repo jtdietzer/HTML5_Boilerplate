@@ -1,0 +1,22 @@
+/* Header CSS */
+
+/* Mobile Devices Responsive Design */
+@media (320px <= width <= 499px) {
+  .header-component {
+    background-color: rgba(255, 0, 0, 1);
+  }
+}
+
+/* Tablet Responsive Design */
+@media (width >= 500px) {
+  .header-component {
+    background-color: rgba(0, 128, 0, 1);
+  }
+}
+
+/* Desktop Responsive Design */
+@media (width >= 769px) {
+  .header-component {
+    background-color: rgba(255, 255, 0, 1);
+  }
+}

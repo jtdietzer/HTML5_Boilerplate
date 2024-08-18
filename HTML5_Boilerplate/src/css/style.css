@@ -1,0 +1,39 @@
+/* Main CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Mobile Devices Responsive Design */
+@media (320px <= width <= 499px) {
+  .app-component {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Tablet Responsive Design */
+@media (width >= 500px) {
+  .app-component {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+/* Desktop Responsive Design */
+@media (width >= 769px) {
+  .app-component {
+    padding: 30px;
+    font-size: 18px;
+  }
+}

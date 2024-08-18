@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A brief description of your page" />
+  <meta name="author" content="Your Name" />
+  <title>Page Title</title>
+  <!-- Favicon -->
+  <link rel="icon" href="/public/favicon.ico" type="image/x-icon" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/src/css/components/header.css" />
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link rel="stylesheet" href="/src/css/components/footer.css" />
+</head>
+
+<body>
+
+  <!-- Header Content -->
+  <header id="header-content" class="header-component" role="banner">
+    <h1 class="header-title">My Website Header</h1>
+    <nav class="nav-component" role="navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="Services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="Blog">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="app-content" class="app-component" role="main"></main>
+
+  <!-- Footer Content -->
+  <footer id="footer-content" class="footer-component" role="contentinfo">
+    <p>&copy; 2024 My Website</p>
+    <ul class="footer-list">
+      <li class="footer-item">
+        <a class="footer-link" href="#" aria-label="Privacy Policy">Privacy Policy</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#" aria-label="Terms of Service">Terms of Service</a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- JavaScript Content Files -->
+  <script src="/src/js/components/header.js"></script>
+  <script src="/src/js/main.js"></script>
+  <script src="/src/js/components/footer.js"></script>
+</body>
+
+</html>
